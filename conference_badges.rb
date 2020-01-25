@@ -13,8 +13,8 @@ end
 def assign_rooms(attendees)
   room_assignments =[]
   counter=1 
-  attendees.each do
-    room_assignments.push("Hello, #{attendees}! You'll be assigned to room #{counter}!")
+  attendees.each  |attendee|do
+    room_assignments.push("Hello, #{attendee}! You'll be assigned to room #{counter}!")
     counter +=1 
   end
   room_assignments 
