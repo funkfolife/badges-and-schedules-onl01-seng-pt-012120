@@ -10,4 +10,9 @@ def batch_badge_creator(attendees)
   return attendees_badges
 end 
 
-def assign_rooms()
+def assign_rooms(attendees)
+  rooms =[]
+  attendees.each do
+    rooms.push(
+  end
+end
